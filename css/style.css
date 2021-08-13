@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
+
+
+
+body{
+    background-color: #eee!important;
+    font-family: 'Open Sans', sans-serif!important;
+    overflow-x: hidden;
+}
+.container-fluid{
+    margin: 100px!important;
+    margin-top: 70px!important;
+}
+.left{
+
+}
+.greeninput {
+    border: 1px solid #28a745;
+    width: 400px;
+    height: 221px;
+    padding: 25px;
+    margin-bottom: 47px;
+}
+.redinput{
+    border:1px solid #dc3545;
+    width: 400px;
+    height: 352px;
+    padding: 25px;
+
+}
+.form-control {
+    margin-top: 26px!important;
+    margin-bottom: 31px!important;
+}
+.form-control.is-invalid,.form-control.is-valid {
+    background-image: 0!important;
+    background-repeat: 0!important;
+    background-position: 0!important;
+    background-size: 0!important;
+}
+
+
+/***************************************************/
+.right{
+
+}
+.topp{
+    display: flex;
+}
+.item {
+    width: 247px;
+    height: 220px;
+    text-align: center;
+}
+.right .item p {
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.right .item i {
+    color: #222284;
+    font-size: 41px;
+    margin-bottom: 36px;
+}
+.right .item h3 {
+    font-size: 40px;
+}
+.head1{
+    color: #28a745;
+}
+.head2,.head3{
+    color: #dc3545;
+}
+    
+
+
+.right .item h3.dollar{
+    
+}
+/*********************************************************************/
+.botom {
+    width: 655px;
+    margin-left: 56px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 50px;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+th:nth-child(3) {
+    border:none!important;
+}
+.expense-title,.expense-value{}
+.delete-edit{}
+.delete-edit img {
+    width: 31px;
+    height: 29px;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    margin-right: 5px;
+}
+.delete-edit img:hover{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.delete-edit img:active{
+    transform: scaleY(0.85);
+}
+.fa-times-circle{
+   cursor: pointer; 
+   float: right;
+   color: #dc3545;
+}
+/****************************************************/
+.green {
+    width: 400px;
+    background-color: #28a745;
+    color: white;
+    padding: 8px;
+    padding-left: 15px;
+    margin-bottom: 16px;
+    transition: all 0.9s ease-in-out;
+    border-radius: 3px;
+}
+/*************************************************************/
+
+.none{
+    display: none;
+}
